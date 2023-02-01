@@ -4,7 +4,7 @@ public class dataCrunching
 {  
 public static void main(String[] args) throws Exception  
 {  
-//parsing a CSV file into Scanner class constructor  
+//parsing a TSV file into Scanner class constructor  
 Scanner sc = new Scanner(new File("D:\\ip_1m.tsv"));  
 sc.useDelimiter(",");   //sets the delimiter pattern  
 while (sc.hasNext())  //returns a boolean value  
